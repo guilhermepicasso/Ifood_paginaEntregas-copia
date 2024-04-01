@@ -1,0 +1,209 @@
+.secao1_header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 1px solid #dcdcdc;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1023px;
+    padding: 16px 0px;
+    gap: 80px;
+}
+
+.header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.header a {
+    font-family: "RC_textoRegular";
+    font-size: 16px;
+    color: #3e3e3e;
+}
+
+.img_logo {
+    width: 57px;
+    height: 30px;
+}
+
+.hamburguer_icon {
+    display: none;
+}
+
+.botaoEspecial1_header {
+    padding: 11px 16px;
+    color: #ff0000 !important;
+    border: 1px solid #ff0000;
+    border-radius: 6px;
+}
+
+.botaoEspecial2_header {
+    padding: 11px 16px;
+    color: #ffffff !important;
+    background-color: #ff0000;
+    border-radius: 6px;
+}
+
+.secao2_entregas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 49px;
+    gap: 56px;
+}
+
+.secao2_entregas>div {
+    display: flex;
+    flex-direction: column;
+    width: 485px;
+}
+
+.secao2_entregas>div h1 {
+    font-family: "RC_tituloMedium";
+    font-size: 14px;
+    color: #717171;
+    margin-bottom: 20px;
+}
+
+.secao2_entregas>div h2 {
+    font-family: "RC_tituloBold";
+    font-size: 35px;
+    color: #3e3e3e;
+    margin-bottom: 10px;
+}
+
+.secao2_entregas>div p {
+    font-family: "RC_textoRegular";
+    font-size: 23px;
+    color: #717171;
+}
+
+.img_entrega {
+    width: 475px;
+    height: 385px;
+}
+
+.secao3_planoEntrega {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 49px;
+    gap: 56px;
+}
+
+.secao3_planoEntrega>div {
+    display: flex;
+    flex-direction: column;
+    width: 485px;
+    gap: 30px;
+}
+
+.img_div {
+    display: flex;
+    justify-content: center;
+}
+
+.img_plano {
+    width: 385;
+    height: 525;
+}
+
+.secao3_planoEntrega>div h1 {
+    font-family: "RC_tituloRegular";
+    font-size: 32px;
+    color: #3e3e3e;
+}
+
+.secao3_planoEntrega>div p {
+    font-family: "RC_textoRegular";
+    font-size: 18px;
+    color: #3e3e3e;
+}
+
+.secao3_planoEntrega>div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.secao3_planoEntrega>div li {
+    font-family: "RC_textoRegular";
+    font-size: 18px;
+    color: #3e3e3e;
+}
+
+@media(max-width:1024px) {
+    .header {
+        width: 100%;
+        padding: 16px 28px;
+        gap: 0px;
+    }
+
+    .header a {
+        font-size: 14px;
+    }
+
+    .secao2_entregas>div h1 {
+        font-size: 14px;
+    }
+
+    .secao2_entregas>div h2 {
+        font-size: 32px;
+    }
+
+    .secao2_entregas>div p {
+        font-size: 20px;
+    }
+
+    .secao3_planoEntrega>div h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .header div {
+        gap: 10px;
+    }
+
+    .itens_header {
+        display: none !important;
+    }
+
+    .botaoEspecial1_header {
+        display: none !important;
+    }
+
+    .hamburguer_icon {
+        display: flex;
+        width: 44px;
+        height: 31px;
+    }
+
+    .secao2_entregas {
+        flex-direction: column;
+    }
+
+    .secao2_entregas>div {
+        width: 100%;
+    }
+
+    .img_entrega {
+        width: 100%;
+        height: 100%;
+    }
+
+    .secao3_planoEntrega {
+        flex-direction: column;
+    }
+
+    .secao3_planoEntrega>div {
+        width: 100%;
+    }
+}

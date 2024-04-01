@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "RC_textoRegular";
+    src: url("/public/assets/fonts/iFoodRCTextos-Regular.c1b7d6bf.woff2");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "RC_textoLight";
+    src: url("/public/assets/fonts/iFoodRCTextos-Light.7a6b6afe.woff2");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "RC_tituloBold";
+    src: url("/public/assets/fonts/iFoodRCTitulos-Bold.973a4645.woff2");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "RC_tituloMedium";
+    src: url("/public/assets/fonts/iFoodRCTitulos-Medium.c71e8250.woff2");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "RC_tituloRegular";
+    src: url("/public/assets/fonts/iFoodRCTitulos-Regular.c82583ec.woff2");
+    font-weight: 400;
+}
